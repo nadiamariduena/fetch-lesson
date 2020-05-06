@@ -1,0 +1,40 @@
+body {
+  background-color: green;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  padding: 15px 20px;
+  background-color: plum;
+}
+
+.card {
+  width: 10rem;
+  text-align: center;
+  background-color: lightgray;
+  border: 1px solid black;
+}
+
+.card > span {
+  color: orange;
+}
+
+.card :last-child {
+  color: red;
+}
+
+.avatar {
+  font-size: 4rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
